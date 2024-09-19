@@ -36,7 +36,7 @@ function calcolaTotale() {
 
     console.log(totale);
    const btnTotale = document.getElementById("grandTotal");
-   btnTotale.innerHTML = "CARRELLO:      " + Math.round(totale) +"   € ";
+   btnTotale.innerHTML = "CARRELLO:      " + totale +"   € ";
 }
 
 let aNomeProd = [];
