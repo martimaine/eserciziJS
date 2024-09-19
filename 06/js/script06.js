@@ -1,3 +1,7 @@
+let elementListaSpesa = document.getElementById("listaSpesa");
+let btnAdd = document.getElementById("btnAdd");
+let btnTotale = document.getElementById("btnTotale");
+
 function popolaLista(){
     elementListaSpesa.innerHTML = "";
     for (let i = 0; i < aNomeProd.length; i++) {
@@ -6,7 +10,7 @@ function popolaLista(){
 
 }
 
-function ListaSpesa() {
+function aggiungiProdotto() {
     let Prodotto = document.getElementById("nomeProd").value;
     let Prezzo = document.getElementById("prezzoProd").value;
     
@@ -27,7 +31,7 @@ function ListaSpesa() {
     popolaLista();
 }
 
-function CalcolaTotale() {
+function calcolaTotale() {
     const totale = aPrezzoProd.reduce((somma, Prezzo) => somma + Number(Prezzo), 0);
 
     console.log(totale);
@@ -35,14 +39,8 @@ function CalcolaTotale() {
    btnTotale.innerHTML = "CARRELLO:      " + Math.round(totale) +"   € ";
 }
 
-let elementListaSpesa = document.getElementById("listaSpesa");
-let btnAdd = document.getElementById("btnAdd");
-let btnTotale = document.getElementById("btnTotale");
+let aNomeProd = [];
+let aPrezzoProd = [];
 
-let aNomeProd = ["Nutella", "Pane", "Acqua"];
-let aPrezzoProd = [4.5, 1.2, 2.1];
-
-popolaLista();
-
-btnAdd.addEventListener("click", ListaSpesa);
-btnTotale.addEventListener("click", CalcolaTotale);
+btnAdd.addEventListener("click", aggiungiProdotto);
+btnTotale.addEventListener("click", calcolaTotale);
