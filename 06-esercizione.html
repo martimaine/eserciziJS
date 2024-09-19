@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Scontrino della Spesa</h1>
+    <h2 id="TotaleSpesa" on CLick="CalcolaTotale"> Totale</h2>
+    <p> Compila i seguenti campi per calcolare lo scontrino della spesa</p>
+    
+    <!-- ATT:  tutto ciò che recupero da un campo input è sempre una stringa. Il type="number"non influisce sul tipo di dato ,mai-->
+    <form>
+        <input type="text"id="nome" placeholder="prodotto" id="nomeProd"><br>
+
+        <input type="number" placeholder="prezzo" id="prezzoProd"><br> 
+
+        <input type="button" value="Aggiungi" id="btnAdd">
+
+    </form>
+
+    <ul id="ListaSpesa">
+        
+    </ul>
+
+    <button id="btnTotale" onCLick="CalcolaTotale()">Calcola Totale</button>
+
+    <h3 id="grandTotal"></h3>
+    <h3 id="numTotArticoli"></h3>
+
+    <script src="./js/script06.js"></script>
+</body>
+</html>
