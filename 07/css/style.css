@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #ecc3d3;
+}
+
+.container {
+    display: flex;
+    width: 100%; /* Dimensione del layout */
+    height: 100vh; /* Altezza fissa del layout */
+}
+
+.header {
+    background-color: #e7ded1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    flex-shrink: 1; /* Evita che si ridimensioni */
+}
+
+.title {
+
+    padding: 10px;
+    text-align: right;
+    font-size: 46px;
+    flex-shrink: 0; /* Mantiene fisso il titolo */
+}
+
+.content {
+    flex-grow: 1; /* Occupa lo spazio rimanente */
+    overflow-y: auto; /* Scroll solo qui */
+    overflow-x: hidden; 
+    padding: 10px;
+    background-color: #c8f1e7;
+}
+
+.inner-content {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.barrato{
+    text-decoration: line-through;
+}
+
+.cancella{
+    margin-left: 10px;
+    font-weight: bold;
+   
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.title:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+.icon{
+    font-size: 20px;
+}
+
+.big{
+    font-size: 18px;
+
+}
+
+.item{
+    font-size: 18px;
+    color: #3f4c92;
+}
+
+#btnAdd{
+    max-width: 100px;
+    margin-left: 60px;
+    background-color: #ecc3d3;
+    border-color: #c61c5d;
+}
