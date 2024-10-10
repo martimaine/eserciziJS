@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="Prodotti"></ul>
+
+    <script>
+        
+        fetch('https://dummyjson.com/products?sortBy=title&order=asc&limit=1000')
+.then(res => res.json())
+.then(prodotti => {
+const listaProdotti = document.getElementById("Prodotti");
+for( prodotto of prodotti.products){
+    listaProdotti.innerHTML +="<li>"+prodotto.title+"</li>";
+    }
+});
+
+
+    </script>
+    <style>
+        li{
+            color: hsla(0, 44%, 55%, 0.87);
+        }
+    </style>
+</body>
+</html>
