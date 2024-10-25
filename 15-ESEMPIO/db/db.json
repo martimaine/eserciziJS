@@ -1,0 +1,200 @@
+{
+  "profile": {
+    "name": "Martina Pia"
+  },
+  "plants": [
+    {
+      "id": "1",
+      "price": "9.90",
+      "name": "Monstera Obliqua",
+      "image": "./img/monstera_obliqua.webp",
+      "descAlt": "Pianta sempreverde di Monstera Obliqua",
+      "produttore": "Dario"
+    },
+    {
+      "id": "2",
+      "price": "5.60",
+      "name": "Crassula",
+      "image": "./img/crassula.webp",
+      "descAlt": "Pianta di crassula o albero di giada",
+      "produttore": "Anna"
+    },
+    {
+      "id": "3",
+      "price": "11.90",
+      "name": "San Severia",
+      "image": "./img/sanseveria.webp",
+      "descAlt": "Pianta di sanseviera, quasi indistruttibile",
+      "produttore": "Maria"
+    }
+  ],
+  "carrello": [
+    {
+      "id": "2",
+      "prezzo": "5.60",
+      "nome": "Crassula"
+    },
+    {
+      "id": "1",
+      "prezzo": "9.90",
+      "nome": "Monstera Obliqua"
+    },
+    {
+      "id": "3",
+      "prezzo": "11.90",
+      "nome": "San Severia"
+    },
+    {
+      "id": "2",
+      "prezzo": "5.60",
+      "nome": "Crassula"
+    },
+    {
+      "id": "1",
+      "prezzo": "9.90",
+      "nome": "Monstera Obliqua"
+    },
+    {
+      "id": "1",
+      "prezzo": "9.90",
+      "nome": "Monstera Obliqua"
+    },
+    {
+      "id": "2",
+      "prezzo": "5.60",
+      "nome": "Crassula"
+    },
+    {
+      "id": "2",
+      "prezzo": "5.60",
+      "nome": "Crassula"
+    },
+    {
+      "id": "3",
+      "prezzo": "11.90",
+      "nome": "San Severia"
+    },
+    {
+      "id": "1",
+      "prezzo": "9.90",
+      "nome": "Monstera Obliqua"
+    }
+  ],
+  "Logstorico": [
+    {
+      "id": "0",
+      "idCarello": 1,
+      "idCliente": 53
+    }
+  ],
+  "acquisti": [
+    {
+      "id": "47e7",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsad",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "465659685+"
+      }
+    },
+    {
+      "id": "b5b6",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsad",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "465659685+"
+      }
+    },
+    {
+      "id": "041c",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "465659685+"
+      }
+    },
+    {
+      "id": "3372",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsadsa",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "dtydshtf"
+      }
+    },
+    {
+      "id": "89e8",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsadsa",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "87678"
+      }
+    },
+    {
+      "id": "9cb5",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "fdsad",
+        "cognome": "dsadsa",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "dasdsa"
+      }
+    },
+    {
+      "id": "4e05",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsadsa",
+        "metodoPagamento": "paypal",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "emailPaypal": "dsdas"
+      }
+    },
+    {
+      "id": "ae09",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsadsa",
+        "metodoPagamento": "cc",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "numeroCarta": "dasdsa"
+      }
+    },
+    {
+      "id": "1f04",
+      "totaleSpesa": 64,
+      "paymentData": {
+        "nome": "Martina",
+        "cognome": "dsadsa",
+        "metodoPagamento": "paypal",
+        "accettaCookie": true,
+        "accettaPrivacy": true,
+        "emailPaypal": "dsdsa"
+      }
+    }
+  ]
+}
